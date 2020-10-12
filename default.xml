@@ -7,7 +7,7 @@
 
   
 
-  <project remote="raspberrypi" name="meta-raspberrypi" revision="refs/heads/master" path="sources/meta-raspberrypi" />
+  <project remote="raspberrypi" name="meta-raspberrypi" revision="2324089fef0e5e23c4a74bceb7a99b3bab8f73be" path="sources/meta-raspberrypi" />
 
   
 

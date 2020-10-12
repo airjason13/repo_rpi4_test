@@ -3,10 +3,10 @@
 
   <default sync-j="2" remote="gumstix" revision="default"/>
 
-  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.yoctoproject.org" name="yocto" />
   
 
-  <project remote="yocto" revision="refs/heads/warrior" name="poky"/>
+  <project remote="yocto" revision="refs/heads/warrior" name="poky" />
 
   
 

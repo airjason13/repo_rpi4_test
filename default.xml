@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="2" remote="gumstix" revision="default"/>
+  <default sync-j="2" remote="rpi4" revision="default"/>
 
-  <remote fetch="git://git.yoctoproject.org" name="yocto" />
+  <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
+
   
 
-  <project remote="yocto" name="poky" />
+  <project remote="raspberrypi" name="meta-raspberrypi" path="sources/meta-raspberrypi" />
 
   
 

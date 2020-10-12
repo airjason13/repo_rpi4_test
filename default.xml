@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="2" remote="rpi4" revision="default"/>
+  <default sync-j="2" revision="default"/>
 
   <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
 

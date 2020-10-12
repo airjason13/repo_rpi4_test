@@ -6,7 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   
 
-  <project remote="yocto" revision="refs/heads/warrior" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="refs/heads/warrior" name="poky"/>
 
   
 

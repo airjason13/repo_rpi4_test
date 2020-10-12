@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="2"/>
+  <default sync-j="2" remote="gumstix" revision="default"/>
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   
 
-  <project remote="yocto" revision="remotes/origin/HEAD" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="refs/heads/warrior" name="poky" path="sources/poky"/>
 
   
 

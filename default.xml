@@ -2,6 +2,7 @@
 <manifest>
 
   <default sync-j="2" />
+  
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
   

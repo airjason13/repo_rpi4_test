@@ -6,13 +6,25 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/openembedded" name="core"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
+  <remote fetch="git://github.com/kraj" name="clang"/>
+  <remote fetch="git://git.yoctoproject.org" name="eca"/>
+  <remote fetch="git://github.com/meta-qt5" name="qt5"/>
+  <remote fetch="git://github.com/schnitzeltony" name="qt5-extra"/>
+  <remote fetch="git://git.yoctoproject.org" name="security"/>
+  <remote fetch="git://git.openembedded.org" name="python2"/>
+  <remote fetch="https://github.com/dev-0x7C6" name="retro"/>
   
   <project remote="yocto" name="poky" revision="9b2b23d5ec4c9b0031ad9c002ab40e70a49fe71e" path="poky" />
   <project remote="raspberrypi" name="meta-raspberrypi" revision="0e9c32c8169d0c6f0486e4d2e1ac670b11382c9c" path="meta-raspberrypi" />
   <project remote="oe" name="meta-openembedded" revision="14f193be821efc1aa25331a8000ead8687a83371"  path="meta-openembedded"/>
-  <project remote="OSSystems" name="meta-broswer" revision="fed14c63ca12ff2a6bb24bdf7d7885e9b14c9513"  path="meta-broswer"/>
-  
-  
-
+  <project remote="core" name="openembedded-core" revision="c21fa5a291ab207a084285935ab73a0b4225c965"  path="openembedded-core"/>
+  <project remote="OSSystems" name="meta-browser" revision="fed14c63ca12ff2a6bb24bdf7d7885e9b14c9513"  path="meta-browser"/>
+  <project remote="clang" name="meta-clang" revision="b2a67a8dc6f633c36299a5c12d9aca05d115cad9"  path="meta-clang"/>
+  <project remote="eca" name="meta-eca" revision="77c41b86a36fa65250deb16b13b13945afc52be4"  path="meta-eca"/>
+  <project remote="qt5" name="meta-qt5" revision="2f17a26d2f4c50458f5b1b145e4462853369b559"  path="meta-qt5"/>
+  <project remote="security" name="meta-security" revision="7486ab3f5b4b64e2bb34af01bfdde3b3654d4f3b"  path="meta-security"/>
+  <project remote="python2" name="meta-python2" revision="7b18fa3ead2c1a98e0f4e01ab57027f57d362c04"  path="meta-python2"/>
+  <project remote="retro" name="meta-retro" revision="ed9d3a83808708bef809b514a9e50a0b8a30ba7b"  path="meta-retro"/>
 </manifest>

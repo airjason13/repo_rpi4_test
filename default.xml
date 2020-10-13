@@ -4,11 +4,11 @@
   <default sync-j="2" remote="rpi4" revision="default"/>
 
   <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
-
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   
 
-  <project remote="raspberrypi" name="meta-raspberrypi" revision="refs/heads/master" path="sources/meta-raspberrypi" />
-
+  <project remote="raspberrypi" name="meta-raspberrypi" revision="refs/heads/master" path="meta-raspberrypi" />
+  <project remote="yocto" revision="9b2b23d5ec4c9b0031ad9c002ab40e70a49fe71e" name="poky" path="poky"/>
   
 
 </manifest>

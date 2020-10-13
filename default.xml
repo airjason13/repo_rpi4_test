@@ -7,8 +7,8 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   
 
-  <project remote="raspberrypi" name="meta-raspberrypi" revision="refs/heads/master" path="meta-raspberrypi" />
-  <project remote="yocto" revision="9b2b23d5ec4c9b0031ad9c002ab40e70a49fe71e" name="poky" path="poky"/>
+  <project remote="raspberrypi" name="meta-raspberrypi" revision="0e9c32c8169d0c6f0486e4d2e1ac670b11382c9c" path="meta-raspberrypi" />
+  <project remote="yocto" name="poky" revision="9b2b23d5ec4c9b0031ad9c002ab40e70a49fe71e"  path="poky" />
   
 
 </manifest>

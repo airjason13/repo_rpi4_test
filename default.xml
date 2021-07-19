@@ -6,25 +6,37 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/agherzan" name="raspberrypi"/>
   <remote fetch="git://github.com/openembedded" name="oe"/>
-  <remote fetch="https://github.com/openembedded" name="core"/>
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
   <remote fetch="git://github.com/kraj" name="clang"/>
-  <remote fetch="git://git.yoctoproject.org" name="eca"/>
   <remote fetch="git://github.com/meta-qt5" name="qt5"/>
   <remote fetch="git://github.com/schnitzeltony" name="qt5-extra"/>
   <remote fetch="git://git.yoctoproject.org" name="security"/>
   <remote fetch="git://git.openembedded.org" name="python2"/>
   <remote fetch="https://github.com/dev-0x7C6" name="retro"/>
+  <remote fetch="git://git.yoctoproject.org" name="java"/>
+  <remote fetch="git://github.com/OSSystems" name="gstreamer1.0"/>
+  <remote fetch="git://github.com/ros" name="ros"/>
+  <remote fetch="git://github.com/rust" name="rust"/>
+  <remote fetch="git://github.com/sbabic" name="swupdate"/>
+  <remote fetch="git://github.com/WebPlatformForEmbedded" name="wpe"/>
+  <remote fetch="git://github.com/airjason13" name="venom"/>
   
-  <project remote="yocto" name="poky" revision="9b2b23d5ec4c9b0031ad9c002ab40e70a49fe71e" path="poky" />
-  <project remote="raspberrypi" name="meta-raspberrypi" revision="0e9c32c8169d0c6f0486e4d2e1ac670b11382c9c" path="meta-raspberrypi" />
-  <project remote="oe" name="meta-openembedded" revision="14f193be821efc1aa25331a8000ead8687a83371"  path="meta-openembedded"/>
-  <project remote="core" name="openembedded-core" revision="c21fa5a291ab207a084285935ab73a0b4225c965"  path="openembedded-core"/>
-  <project remote="OSSystems" name="meta-browser" revision="fed14c63ca12ff2a6bb24bdf7d7885e9b14c9513"  path="meta-browser"/>
-  <project remote="clang" name="meta-clang" revision="b2a67a8dc6f633c36299a5c12d9aca05d115cad9"  path="meta-clang"/>
-  <project remote="eca" name="meta-eca" revision="77c41b86a36fa65250deb16b13b13945afc52be4"  path="meta-eca"/>
-  <project remote="qt5" name="meta-qt5" revision="2f17a26d2f4c50458f5b1b145e4462853369b559"  path="meta-qt5"/>
-  <project remote="security" name="meta-security" revision="7486ab3f5b4b64e2bb34af01bfdde3b3654d4f3b"  path="meta-security"/>
-  <project remote="python2" name="meta-python2" revision="7b18fa3ead2c1a98e0f4e01ab57027f57d362c04"  path="meta-python2"/>
-  <project remote="retro" name="meta-retro" revision="ed9d3a83808708bef809b514a9e50a0b8a30ba7b"  path="meta-retro"/>
+  <project remote="yocto" name="poky" revision="10c69538c0cb8708c7eff9e8dc05ca7c669cb61c" path="poky" />
+  <project remote="raspberrypi" name="meta-raspberrypi" revision="a7cc636d4ef0ed7ddabf5785463dbb5c79633b1e" path="meta-raspberrypi" />
+  <project remote="oe" name="meta-openembedded" revision="4599fea8819fc6766ea3f3ccce64c4607e5071c4"  path="meta-openembedded"/>
+  <project remote="OSSystems" name="meta-browser" revision="1bff166b36072a8cacc0f29f02de5fa9748824e9"  path="meta-browser"/>
+  <project remote="clang" name="meta-clang" revision="b5a7b58e9de0c44a478f612f5fae9ce0800b88c0"  path="meta-clang"/>
+  <project remote="qt5" name="meta-qt5" revision="7a9f639fbd632dbe23af95c7b8123a0b907c6179"  path="meta-qt5"/>
+  <project remote="qt5-extra" name="meta-qt5-extra" revision="bd41fadd389861398ee1686f8c0e541df364a6d8"  path="meta-qt5i-extra"/>
+  <project remote="security" name="meta-security" revision="6053e8b8e2f868ad67eeb0764b437b39e531da93"  path="meta-security"/>
+  <project remote="python2" name="meta-python2" revision="c43c29e57f16af4e77441b201855321fbd546661"  path="meta-python2"/>
+  <project remote="retro" name="meta-retro" revision="427cc7e91bcc6bc6d98f3d5d48eb48c601876380"  path="meta-retro"/>
+  <project remote="java" name="meta-java" revision="6e84638d77ac921aac46649095bca5ddbde94d2a"  path="meta-java"/>
+  <project remote="gstreamer1.0" name="meta-gstreamer1.0" revision="48b7aabbc7f0792263de09a30a0ce3b0b94bf6be"  path="meta-gstreamer1.0"/>
+  <project remote="ros" name="meta-ros" revision="cd8b36d3946dd7fe2643b4c35dfd9b24ad65443b"  path="meta-ros"/>
+  <project remote="rust" name="meta-rust" revision="fa5cdb0de4a7428cb4124cab4c8c1c9a3160d2c3"  path="meta-rust"/>
+  <project remote="swupdate" name="meta-swupdate" revision="1a3c1fc4145631dbdcda3ac916a097435ab3d607"  path="meta-swupdate"/>
+  <project remote="wpe" name="meta-wpe" revision="8a8a220e10e0305f9509c604ef91f6090823ff5f"  path="meta-wpe"/>
+  <project remote="venom" name="meta-venom" revision="dd77e0c7ab6711ec44a2f75d2006f2682ba3fa20"  path="meta-venom"/>
+
 </manifest>

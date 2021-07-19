@@ -16,7 +16,7 @@
   <remote fetch="git://git.yoctoproject.org" name="java"/>
   <remote fetch="git://github.com/OSSystems" name="gstreamer1.0"/>
   <remote fetch="git://github.com/ros" name="ros"/>
-  <remote fetch="git://github.com/rust" name="rust"/>
+  <remote fetch="git://github.com/meta-rust" name="rust"/>
   <remote fetch="git://github.com/sbabic" name="swupdate"/>
   <remote fetch="git://github.com/WebPlatformForEmbedded" name="wpe"/>
   <remote fetch="git://github.com/airjason13" name="venom"/>
